@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(90deg , #ff7518,#e9692c);
+  
+}
+#choose{
+  position: relative;
+  height: 20vh;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task{
+  width: 30rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-right: 3rem;
+  color: #a9a9a9;
+  border: transparent;
+  outline: none;
+}
+
+#days{
+  margin-right: 5rem;
+}
+#hours{
+  margin-right: 1rem;
+}
+#halves{
+  margin-right: 5rem;
+}
+
+select{
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: transparent;
+  outline: none;
+text-transform: capitalize;
+color: #a9a9a9;
+}
+
+
+.enter{
+  padding: 0.4rem 0.7rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  border: transparent;
+  color: #e9692c;
+}
+.enter:active{
+  background-color: #e9692c;
+  color: white;
+}
+main{
+  padding-top: 2rem;
+  position: relative;
+}
+.item{
+  background-color: white;
+  height: auto;
+width: 90%;
+  margin-bottom: 2rem;
+
+color: #708090;
+ background-color: transparent;
+ display: flex;
+ margin-left: 5rem;
+ margin-right: auto;
+
+transition: opacity 0.3s;
+}
+
+.item div{
+  margin-right: 2rem;
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: auto;
+}
+.item div:first-child{
+  width: 4.5rem;
+}
+
+.confirm , .deleted{
+  display: block;
+   padding: 0.1rem 0.3rem;
+  font-size: 0.5rem;
+  border-radius: 50%;
+  border: transparent;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin-right: 1rem;
+}
+.confirm{
+  color: green;
+}
+.deleted{
+  color: red;
+}
+
